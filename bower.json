@@ -1,0 +1,25 @@
+{
+  "name": "pdb-redo",
+  "version": "0.1.0",
+  "main": "./build/pdb.redo.min.js",
+  "authors": [
+    "Mandar Deshpande <mandar@ebi.ac.uk>"
+  ],
+  "description": "The PDB_REDO component shows the change in geometric quality and fit to the experimental data between original PDB entry and its re-refined and rebuilt PDB_REDO counterpart.",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": ["BioJS", "PDB component", "PDB_REDO", "PDBe", "AngularJS"],
+  "license": "Apache-2.0",
+  "homepage": "http://www.ebi.ac.uk/pdbe/pdb-component-library/doc.html#a_pdbRedo",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.4.7"
+  }
+}

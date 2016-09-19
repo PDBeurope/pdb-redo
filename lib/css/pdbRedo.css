@@ -1,0 +1,111 @@
+/* Styles go here */
+
+.pcl-pdbRedo-wrapper{
+  /*width:240px;*/
+  width:100%;
+  height:auto;
+  font-family: Verdana,sans-serif;
+  position: relative;
+}
+
+.pcl-pdbRedo-heading{
+  font-size: 12px;
+  width:100%;
+  /*text-overflow: ellipsis;
+  -ms-text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow:hidden;*/
+  text-align:center;
+  font-weight:bold;
+  margin-bottom:5px;
+}
+
+.pcl-pdbRedo-row{
+  width:100%;
+  height:15px;
+  clear:both;
+}
+
+.pcl-pdbRedo-row:last-child{
+  margin-top:5px;
+}
+
+.pcl-pdbRedo-link-row{
+  width:100%;
+  height:15px;
+  clear:both;
+  text-align: right;
+}
+
+.pcl-pdbRedo-link-row > a {
+  font-size: 10px;
+}
+
+.pcl-pdbRedo-label{
+  font-size: 12px;
+  float:left;
+  width:44%;
+  text-overflow: ellipsis;
+  -ms-text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow:hidden;
+}
+
+.pcl-pdbRedo-gradient{
+  float:left;
+  width:53%;
+  height:11px;
+  margin-left:2%;
+  margin-top:1px;
+  border: 1px solid #CCC;
+  background: #f00;
+  background: -moz-linear-gradient(left,#f00 0,#fff 50%,#fff 51%,#00f 100%);
+  background: -webkit-gradient(linear,left top,right top,color-stop(0%,#f00),color-stop(50%,#fff),color-stop(51%,#fff),color-stop(100%,#669966));
+  background: -webkit-linear-gradient(left,#f00 0,#fff 50%,#fff 51%,#669966 100%);
+  background: -o-linear-gradient(left,#f00 0,#fff 50%,#fff 51%,#669966 100%);
+  background: -ms-linear-gradient(left,#f00 0,#fff 50%,#fff 51%,#669966 100%);
+  background: linear-gradient(to right,#f00 0,#fff 50%,#fff 51%,#669966 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0000',endColorstr='#669966',GradientType=1);
+  webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+.pcl-pdbRedo-error{
+  float:left;
+  width:53%;
+  height:11px;
+  margin-left:2%;
+  margin-top:1px;
+  border: 1px solid #CCC;
+  background: #999;
+  font-size: 10px;
+  color: #fff;
+  text-align: center;
+}
+
+.pcl-pdbRedo-position-frame{
+  position:absolute;
+  right:0;
+  height:11px;
+  width:9%;
+  border:2px solid #000;
+  background-color: rgba(255,255,255,0.7);
+  webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+.pcl-pdbRedo-loader {
+    position: absolute;
+    background: #fff;
+    opacity: 0.9;
+    text-align: center;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    z-index: 999;
+    width:100%;
+    height:100%;
+}
