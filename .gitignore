@@ -1,10 +1,8 @@
-node_modules
-.idea/
-*.log
+build/
+
+.vscode
 .DS_Store
-coverage/lcov.info
-.coveralls.yml
-examples-out
-bower_components/
+.idea/
+*.iml
 node_modules/
-build/pdbprints_browserify.js
+*.log
